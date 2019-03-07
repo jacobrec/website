@@ -1,0 +1,72 @@
+:root {
+    --top-pad: 40px;
+}
+
+html {
+    color: var(--foreground);
+    background-color: var(--background);
+    font-family: Helvetica, Ariel;
+}
+
+svg {
+    fill: var(--foreground);
+}
+
+body {
+    margin: var(--top-pad) auto 0 auto;
+    max-width: 650px;
+    line-height: 1.8;
+    font-size: 18px;
+    padding: 0 10px;
+    min-height: calc(100vh - var(--top-pad));
+}
+
+.codelink {
+    font-size: 32px;
+    color: var(--foreground);
+}
+.codelink:visited{
+    color: var(--foreground);
+}
+
+a:visited{
+    color: blue;
+}
+
+h1 {font-size: 72px;}
+h2 {font-size: 32px;}
+sup {font-size: 12px;}
+footer {font-size: 12px;}
+
+.icon {
+    width: 48px;
+    height: 48px;
+}
+
+.ver {
+    display: flex;
+    flex-direction: column;
+}
+.hor {
+    display: flex;
+    flex-direction: row;
+}
+.spread {
+    display: flex;
+    justify-content: space-between;
+}
+.drift {
+    display: flex;
+    justify-content: space-around;
+}
+.squeeze {
+    display: flex;
+    justify-content: center;
+}
+.cent {
+    display: flex;
+    align-items: center;
+}
+.clickable {
+    cursor: pointer;
+}
